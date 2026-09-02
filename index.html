@@ -1,3 +1,145 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Duty Timer — дежурный помощник</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #000000;
+            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 700px;
+            width: 100%;
+            text-align: center;
+        }
+        .logo {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 32px;
+            color: #FF9500;
+            margin-bottom: 12px;
+        }
+        .tagline {
+            font-size: 18px;
+            color: #B0B0B0;
+            margin-bottom: 30px;
+        }
+        .features {
+            text-align: left;
+            margin-bottom: 40px;
+        }
+        .feature {
+            background: #1A1A1A;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 12px;
+        }
+        .feature h3 {
+            color: #FF9500;
+            font-size: 18px;
+            margin-bottom: 6px;
+        }
+        .feature p {
+            color: #CCCCCC;
+            font-size: 15px;
+        }
+        .store-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .store-btn {
+            background: #FF9500;
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 14px 40px;
+            border-radius: 8px;
+            width: 100%;
+            max-width: 300px;
+            text-align: center;
+            transition: opacity 0.2s;
+        }
+        .store-btn:hover {
+            opacity: 0.9;
+        }
+        .links {
+            margin-bottom: 30px;
+        }
+        .links a {
+            color: #FF9500;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            color: #555555;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">⏱</div>
+        <h1>My Duty Timer</h1>
+        <p class="tagline">Дежурный помощник для охранников и вахтовых сотрудников</p>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>🔔 Голосовые оповещения</h3>
+                <p>Приложение вслух предупреждает об обходах, докладах и перерывах. Не нужно смотреть на экран.</p>
+            </div>
+            <div class="feature">
+                <h3>⏱ Два таймера</h3>
+                <p>Оранжевый — время до конца текущего обхода. Зелёный — время до следующего события.</p>
+            </div>
+            <div class="feature">
+                <h3>🌙 Ночные смены</h3>
+                <p>Корректная работа с графиками, переходящими через полночь (20:00–08:00).</p>
+            </div>
+            <div class="feature">
+                <h3>⏰ Будильник для важных событий</h3>
+                <p>Критически важные задачи не дадут проспать.</p>
+            </div>
+            <div class="feature">
+                <h3>☕ Умные перерывы</h3>
+                <p>Во время отдыха уведомления не приходят. Обходы автоматически сдвигаются.</p>
+            </div>
+        </div>
+
+        <div class="store-buttons">
+            <a href="https://apps.rustore.ru/" class="store-btn">Скачать в RuStore</a>
+        </div>
+
+        <div class="links">
+            <a href="privacy.html">Политика конфиденциальности</a>
+            <a href="mailto:tulneek@yandex.ru">Поддержка</a>
+        </div>
+
+        <p class="footer">© 2026 My Duty Timer</p>
+    </div>
+</body>
+</html>
